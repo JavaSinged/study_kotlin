@@ -1,4 +1,4 @@
-package chap04
+package chap04.if_when
 
 fun main() {
     val a = 12
