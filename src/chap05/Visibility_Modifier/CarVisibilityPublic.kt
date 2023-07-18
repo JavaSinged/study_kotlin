@@ -1,4 +1,4 @@
-package chap05
+package chap05.Visibility_Modifier
 
 open class Car protected constructor(_year: Int, _model: String, _power: String, _wheel: String) {
     private var year: Int = _year
