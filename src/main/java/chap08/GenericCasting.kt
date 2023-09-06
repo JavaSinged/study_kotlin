@@ -44,5 +44,5 @@ fun main() {
     val obj4: Cup<Child> = Cup<Parent>() //오류! 자료형 불일치
 
     val obj5 = Cup<Child>() //obj5는 Cup<Child>의 자료형이 됨
-    val obj6L Cup<Child> = obj5 //자료형이 일치하므로 가능
+    val obj6: Cup<Child> = obj5 //자료형이 일치하므로 가능
 }
