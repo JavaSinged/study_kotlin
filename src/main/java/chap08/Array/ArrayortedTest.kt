@@ -29,5 +29,6 @@ fun main() {
     val items = arrayOf<String>("Dog", "Cat", "Lion", "Kangaroo", "Po")
     items.sortBy { item -> item.length }
     println(Arrays.toString(items))
+    //dsfd
 
 }
