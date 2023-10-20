@@ -30,5 +30,6 @@ fun main() {
     items.sortBy { item -> item.length }
     println(Arrays.toString(items))
 
+    //asf
 
 }
