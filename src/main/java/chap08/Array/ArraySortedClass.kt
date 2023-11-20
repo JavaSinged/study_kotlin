@@ -14,6 +14,6 @@ fun main() {
         Product("Tablet", 512.99)
     )
 
-    products.sortBy { it.price } //값에 따라 정렬
+    products.sortBy { it.price } //price값에 따라 오름차순 정렬
     products.forEach { println(it) }
 }
