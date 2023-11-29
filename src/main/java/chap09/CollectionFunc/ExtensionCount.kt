@@ -8,7 +8,7 @@ fun main() {
     val listRepeated = listOf(2, 2, 3, 4, 5, 5, 6)
     val map = mapOf(11 to "Java", 22 to "Kotlin", 33 to "C++")
 
-    // forEach: 각 요소를 람다식으로 처리
+    //-요소의 순환- forEach: 각 요소를 람다식으로 처리
     list.forEach { print("$it ") }
     println()
     list.forEachIndexed { index, value -> println("index[$index]: $value") }
@@ -23,7 +23,7 @@ fun main() {
     // count: 조건에 맞는 요소 갯수 반환
     println(list.count { it % 2 == 0 }) // 3
 
-    // max: 가장 높은/낮은 요소의 반환
+    // max/min: 가장 높은/낮은 요소의 반환
     println(list.max()) // 6
     println(list.min()) // 1
 
