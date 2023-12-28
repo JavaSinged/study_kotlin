@@ -1,4 +1,4 @@
-package main.java.chap10
+package main.java.chap10.StandardLibrary
 
 /*
 * 람다식을 사용하다 보면 내부 함수에서 외부 변수를 호출하고 싶을 때가 있음.

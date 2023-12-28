@@ -1,4 +1,4 @@
-package main.java.chap10
+package main.java.chap10.StandardLibrary
 
 fun main() {
     //val 변수 이름 : 자료형 선언 = { 매개변수[,...] -> 람다식 본문 }

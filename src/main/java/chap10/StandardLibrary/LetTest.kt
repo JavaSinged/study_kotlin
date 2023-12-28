@@ -42,6 +42,7 @@ fun main() {
     var b = 2
 
     a = a.let { it + 2 }.let {
+        println("a = $a")
         val i = it + b
         i //마지막 식 반환
     }
