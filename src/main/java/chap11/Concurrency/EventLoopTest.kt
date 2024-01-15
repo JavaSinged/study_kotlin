@@ -1,4 +1,4 @@
-package main.java.chap11
+package main.java.chap11.Concurrency
 
 /*
 * 이벤트 루프란 라이브러리를 통해 이벤트 처리를 위한 프로그래밍 모델을 만들기 위한 것

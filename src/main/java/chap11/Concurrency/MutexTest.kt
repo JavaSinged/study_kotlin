@@ -1,4 +1,4 @@
-package main.java.chap11
+package main.java.chap11.Concurrency
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
